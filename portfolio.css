@@ -57,7 +57,7 @@ h1 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 22px 22px;
-  border:#e4405f;
+  border: none;
   cursor: pointer;
   display: flex;
   align-items: center;
