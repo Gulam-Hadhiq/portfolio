@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 40px;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #eee;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 26px;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 22px 22px;
+  border:#e4405f;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+}
+
+.linkedin {
+  background-color: #9ba2a5;
+  background-image: url('https://cdn-icons-png.flaticon.com/512/174/174857.png');
+}
+
+.instagram {
+  background-color: #e4405f;
+  background-image: url('https://cdn-icons-png.flaticon.com/512/2111/2111463.png');
+}
+
+.github {
+  background-color: #333;
+  background-image: url('https://cdn-icons-png.flaticon.com/512/733/733553.png');
+}
+
+.email {
+  background-color: #6c63ff;
+  background-image: url('https://cdn-icons-png.flaticon.com/512/561/561127.png');
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 25px;
+  }
+  .btn {
+    width: 44px;
+    height: 44px;
+  }
+}
